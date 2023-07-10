@@ -112,7 +112,8 @@ body {
     text-decoration-line: underline;
     margin-bottom: 125px;
 }
-.contact-icons{
+
+.contact-icons {
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -122,10 +123,61 @@ body {
     padding-top: 86px;
     padding-bottom: 88px;
     margin-bottom: 125px;
-    
+
 }
 
-.contact-icon{
+.contact-icon {
     text-align: center;
-    
+}
+
+.sale-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    height: 50vh;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sale-text>h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20%;
+}
+
+.sale-text>P {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18px 0 32px;
+}
+
+.social-text {
+    text-align: center;
+    padding-top: 145px;
+    padding-bottom: 45px;
+}
+
+.social-text>h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 1%;
+}
+
+.social-text>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+.social-images{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: ;
+}
+.connection{
+    background-image: url('../assets/Rectangle\ 9.png');
 }

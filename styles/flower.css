@@ -112,10 +112,6 @@ body {
     text-decoration-line: underline;
     margin-bottom: 125px;
 }
-.contact{
-    
-
-}
 .contact-icons{
     display: flex;
     justify-content: center;
@@ -128,18 +124,7 @@ body {
     margin-bottom: 125px;
     
 }
-/* .contact-text{display: flex;
-    justify-content: center;
-    gap: 330px;
-    list-style: none;
-    color: rgba(39, 39, 39, 0.80);
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 35px;
 
-} */
 .contact-icon{
     text-align: center;
     

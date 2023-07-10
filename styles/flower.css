@@ -16,7 +16,7 @@ body {
     align-items: center;
     padding: 50px 240px 0px;
     background-color: rgba(229, 84, 115, 0.10);
-    
+
 }
 
 .banner-title {
@@ -46,4 +46,68 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
+}
+
+.featured-text {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 48px;
+}
+
+.featured-text>h1 {
+    padding-bottom: 24px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-text>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
+}
+
+.featured-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 12px;
+}
+
+.featured-card-1>img {
+    width: 300px;
+    height: 472px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-card-2>img {
+    width: 370px;
+    height: 370px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 110px 47px 101px 47px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-card-3>img {
+    width: 314px;
+    height: 471px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-card-title {
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+    list-style: none;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }

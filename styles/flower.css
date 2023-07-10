@@ -116,7 +116,7 @@ body {
     
 
 }
-.contact-icon{
+.contact-icons{
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -140,7 +140,7 @@ font-weight: 600;
 line-height: 35px;
 
 } */
-.yyy{
+.contact-icon{
     text-align: center;
     
 }

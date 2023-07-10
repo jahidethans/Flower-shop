@@ -110,4 +110,37 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+    margin-bottom: 125px;
+}
+.contact{
+    
+
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: 0px 230px;
+    padding-top: 86px;
+    padding-bottom: 88px;
+    margin-bottom: 125px;
+    
+}
+/* .contact-text{display: flex;
+    justify-content: center;
+    gap: 330px;
+    list-style: none;
+    color: rgba(39, 39, 39, 0.80);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+
+} */
+.yyy{
+    text-align: center;
+    
 }

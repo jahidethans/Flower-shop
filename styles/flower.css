@@ -183,9 +183,55 @@ body {
     gap: 1%;
 }
 
+.comment-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgba(239, 239, 239, 1);
+    margin-top: 4%;
+    margin-bottom: 0px;
+}
+.comment-text{
+    text-align: right;
+    padding-right: 7%;
+}
+.comment-text>h1{
+    padding-bottom: 20px;
+}
+.comment{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    gap: 250px;
+}
+.comment p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(39, 39, 39, 0.60);
+}
+.star-rating{
+    display: flex;
+    justify-content: right;
+    gap: 450px;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.cmmentors-name{
+    display: flex;
+    justify-content: right;
+    gap: 600px;
+    padding-top: 15px;
+}
+.comment-image>img{
+    width: 800px;
+    
+}
+
+
 .connection {
     background-image: url('../assets/Rectangle\ 9.png');
-    margin: 8% 12.5%;
+    margin: 5% 12.5%;
     height: 45vh;
     background-repeat: no-repeat;
     background-position: center;
